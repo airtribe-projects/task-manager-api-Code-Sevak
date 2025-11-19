@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const tasks = require('../models/taskSchema');
-
+const tasksList = require('../task.json');
+const tasks = tasksList.tasks
 router.get('/', (req, res) => {
   res.status(200).send(tasks);
 });
