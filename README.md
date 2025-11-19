@@ -38,7 +38,6 @@ Response codes: 200, 201, 400, 404
 ## Project layout
 - app.js — Express app / server
 - routes/taskRoutes.js — task routes
-- models/taskSchema.js — in-memory tasks
 - test/ — tests
 - task.json — sample data
 - package.json — scripts & dependencies
