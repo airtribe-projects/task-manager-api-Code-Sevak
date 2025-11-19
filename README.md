@@ -38,6 +38,7 @@ Response codes: 200, 201, 400, 404
 ## Project layout
 - app.js — Express app / server
 - routes/taskRoutes.js — task routes
+- models/taskSchema.js — in-memory tasks
 - test/ — tests
 - task.json — sample data
 - package.json — scripts & dependencies
@@ -47,3 +48,4 @@ Response codes: 200, 201, 400, 404
 - Add request validation and environment config for production.
 
 License: ISC
+Tip: you can generate a Personal Access Token here https://github.com/settings/tokens
