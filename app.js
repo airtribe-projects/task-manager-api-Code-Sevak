@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Task Managesr API');
+    res.send('Welcome to the Task Manager API');
 });
 app.use('/tasks', require('./routes/taskRoutes'));
 app.listen(port, (err) => {
